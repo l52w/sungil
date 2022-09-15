@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; text-decoration: none; list-style: none; color: #000;}
+
+#wrap { width: 1400px; margin: 0 auto; }
+
+header { 
+    width: 100%; height: 450px; background: silver;
+    display: flex; justify-content: center;
+}
+header .logo { padding-top: 20px; padding-right: 20px; }
+.nav { width: 550px; position: relative; text-align: center; padding-top: 10px;}
+.nav .main { position: relative; width: 15%; float: left; padding: 10px;}
+.nav .main li { padding: 10px; }
+.nav .sub { position: absolute; width: 100%; display: none;}
+.contact { width: 190px; text-align: center; padding-top: 20px; }
+.contact li { float: left; position: relative; width: 50%; }
