@@ -27,23 +27,33 @@ header .nav a:hover { text-decoration: underline; color: #D2D79F;}
 #s1 h1 a { font-size: 50px; color: #bbb12c; }
 #s1 hr { width: 155px; margin-bottom: 50px;}
 #s1 p { font-size: 20px; text-align: center; line-height: 40px;}
-#s1 .more { margin-left: 800px; margin-top: 50px; font-size: 25px; text-decoration: underline; }
+#s1 .more { margin-left: 1240px; margin-top: 50px; font-size: 25px; text-decoration: underline; }
 #s1 .more a { color: #bbb12c; }
 
-#s2 { width: 100%; height: 650px; background-image: linear-gradient( rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.5) ), url('/img/movie/bg.png'); background-size: cover; background-repeat: no-repeat;}
-#s2 .list { width: 100%; display: flex; text-align: center; justify-content: space-between; margin-left: 25px; }
-#s2 .list img { width: 230px; padding-bottom: 15px;}
-#s2 h1 { font-size: 50px;  padding-top: 30px; text-align: center; }
-#s2 h1 a { color: #42855B; }
-#s2 hr { width: 150px; margin-left: 625px;  margin-bottom: 60px; }
-#s2 .more { margin-left: 1320px; font-size: 25px; text-decoration: underline; margin-top: 35px; }
-#s2 a { color: rgba(0, 0, 0, 0.767); }
-#s2 p {font-family: 'Yomogi';}
-
-#l22 { width: 100%; height: 250px; }
-#l22 img { width: 80px; margin-left: 650px; padding-top: 100px; }
-#l2 { width: 100%; height: 250px; }
-#l2 img { width: 100px; margin-left: 650px; padding-bottom: 100px; }
+#s2 { width: 100%; height: 600px; }
+#s2 .list ul { width: 100%; display: flex; justify-content: center; grid-column-gap: 50px;}
+#s2 .list ul li { display: flex; flex-direction: column; align-items: center; }
+#s2 h1 a { padding-left: 605px; font-size: 50px; color: #2c82bb;}
+#s2 h2 { font-size: 40px;  padding-top: 30px; text-align: center; padding-bottom: 20px;}
+#s2 hr { width: 195px; margin-left: 602px; margin-bottom: 60px; }
+#s2 .more { margin-left: 1240px; font-size: 25px; text-decoration: underline; margin-top: 50px; }
+#s2 a { color: #000;}
+#s2 .more a { color: #2c82bb; }
+#s2 h3 { font-family: 'Yomogi'; text-align: center; }
+#s2 p {font-family: 'Yomogi'; text-align: center; }
+#s2 .pic1 { 
+    width: 400px; height: 250px; border-radius: 0 150px 0 150px; 
+    background-image: url('../img/school/middle.png'); background-repeat: no-repeat; background-size: cover;
+}
+#s2 .pic2 { 
+    width: 400px; height: 250px; border-radius: 0 150px 0 150px; 
+    background-image: url('../img/school/high.png'); background-repeat: no-repeat; background-size: cover;
+}
+#s2 .pic3 { 
+    width: 400px; height: 250px; border-radius: 0 150px 0 150px; 
+    background-image: url('../img/school/info.png'); background-repeat: no-repeat; background-size: cover;
+}
+#s2 .pic1:hover ~ #s2 .pic1 img { background-image: url('../img/about.jpg');}
 
 #s3 { width: 100%; height: 1400px; background-image: linear-gradient( rgba(225, 225, 225, 0.7), rgba(225, 225, 225, 0.7) ),url('/img/store/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
 #s3 h1 { font-size: 50px;  padding-top: 30px; padding-left: 200px; }
