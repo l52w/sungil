@@ -15,8 +15,8 @@
 #wrap { width: 1400px; margin: 0 auto; }
 
 header { 
-    width: 100%; height: 668px; font-family: 'Cafe24Simplehae';
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url('/img/main.jpg'); background-size: cover; background-position: center center; 
+    width: 100%; height: 670px; font-family: 'Cafe24Simplehae';
+    /* background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url('/img/main.jpg'); background-size: cover; background-position: center center;  */
 }
 header .logo { width: 700px; margin-left: 350px; margin-top: 240px; color: #fff; font-size: 50px; opacity: 0.9; font-family: 'YUniverse-B';}
 header .nav { display: flex; justify-content: center; padding-top: 30px; margin-left: 100px;}
@@ -24,6 +24,10 @@ header .nav ul { width: 800px; display: flex; align-items: center; justify-conte
 header .nav li { width: 800px; display: flex; justify-content: space-between; grid-column-gap: 20px; }
 header .nav a { color: #fff; font-weight: bold; }
 header .nav a:hover { text-decoration: underline; color: #D2D79F;}
+header #slide { width: 1400px; height: 670px; overflow: hidden;}
+#slide img { width: 1400px; height: 670px; }
+#slide >ul { width: 1400px;}
+#slide >ul>li { display: inline-block;}
 
 #s1 {
     width: 100%; height: 1500px; 
@@ -44,8 +48,8 @@ header .nav a:hover { text-decoration: underline; color: #D2D79F;}
 
 #s2 { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 700px; }
 #s2 h1 a { font-size: 50px; color: #2c82bb; }
-#s2 .list ul { width: 100%; display: flex; justify-content: center; grid-column-gap: 50px;}
-#s2 .list ul li { height: 420px; display: flex; flex-direction: column; align-items: center; border-radius: 15px 150px 15px 15px;}
+#s2 .list ul { width: 100%; display: flex; justify-content: center; grid-column-gap: 30px;}
+#s2 .list ul li { height: 500px; display: flex; flex-direction: column; align-items: center; border-radius: 15px 150px 15px 15px;}
 #s2 .list ul li:first-child { background: #ffed9c;}
 #s2 .list ul li:nth-child(2) { background: #ffc6c4;}
 #s2 .list ul li:nth-child(3) { background: #ffcbf6;}
@@ -57,15 +61,15 @@ header .nav a:hover { text-decoration: underline; color: #D2D79F;}
 #s2 h3 { font-family: 'Yomogi'; text-align: center; }
 #s2 p {font-family: 'Yomogi'; text-align: center; font-size: 18px; }
 #s2 .pic1 { 
-    width: 400px; height: 250px; border-radius: 15px 150px 0 150px; 
+    width: 450px; height: 300px; border-radius: 15px 150px 0 150px; 
     background-image: url('../img/school/middle.png'); background-repeat: no-repeat; background-size: cover;
 }
 #s2 .pic2 { 
-    width: 400px; height: 250px; border-radius: 15px 150px 0 150px; 
+    width: 450px; height: 300px; border-radius: 15px 150px 0 150px; 
     background-image: url('../img/school/high.png'); background-repeat: no-repeat; background-size: cover;
 }
 #s2 .pic3 { 
-    width: 400px; height: 250px; border-radius: 15px 150px 0 150px; 
+    width: 450px; height: 300px; border-radius: 15px 150px 0 150px; 
     background-image: url('../img/school/info.png'); background-repeat: no-repeat; background-size: cover;
 }
 /* #s2 .pic1:hover ~ #s2 .pic1 img { background-image: url('../img/about.jpg');} */
